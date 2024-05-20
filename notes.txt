@@ -1,3 +1,4 @@
 - avoid putting important information in images
 - images should be decorative and add to the expereience
 - a screenreader will just skip an. images description if the alt tag is empty (alt = "")
+- more entities: https://tools.w3cub.com/html-entities
