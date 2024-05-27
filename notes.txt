@@ -6,3 +6,6 @@
 Fonts
 - https://www.cssfontstack.com/
 - Using a font that has numbers in it, you need to put quotes around it.
+
+Gradient maker:
+- https://cssgradient.io/

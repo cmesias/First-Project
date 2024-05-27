@@ -8,6 +8,15 @@ html {
     font-family: Arial Black;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 157, 10);
+}
+
 body {
     background: linear-gradient(315deg, cyan, purple);
     height: 100vh; /* Ensure body covers the full height of the viewport */
