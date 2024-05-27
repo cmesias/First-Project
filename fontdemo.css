@@ -1,0 +1,43 @@
+html {
+    font-size: 1vw;
+
+    /* You can add 1 font, then another font for backup, then you can even add a group of fonts at the end
+    *  For examplle: 'font-family: Monaco, Arial, serif;'
+    *  This example looks for 'Monaco' first, if not then it looks for Arial, if not then it will choose
+    *  any font from the 'serif' group. */
+    font-family: Arial Black;
+}
+
+body {
+    background: linear-gradient(315deg, cyan, purple);
+    height: 100vh; /* Ensure body covers the full height of the viewport */
+}
+
+h1 {
+    font-size: 6rem; /* This means that h1 will be 4x bigger than its parent (<body> tag) */
+}
+
+/* Because we set section to fontsize 30px, h2 elements will be relative to section tags. Section would be the parent of h2s' */
+h2 {
+    font-size: 3rem;
+    font-family: Arial;
+
+    /* One line */
+    text-decoration: underline overline dashed orangered;
+
+    /* Multiple lines, this does the same text-decoration as above */
+    /* text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy; */
+}
+
+h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: hsl(0, 100%, 70%, 0.8);
+    text-shadow: 5px 5px hsl(180, 100%, 70%, 0.8);
+}
+
+section {
+    font-size: 0.8rem;
+}
